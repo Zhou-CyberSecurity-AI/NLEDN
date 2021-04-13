@@ -21,8 +21,10 @@ code：uxq8
 
 # Running Steps
 1.Download four testing sets (Rain100L, Rain100H, DDN, DID-MDN).
+
 2.Choose the type of dataset in Congig.config.py.
   data_type_list = ['dataset1', 'dataset2', 'dataset3', 'dataset4']
   data_type = data_type_list[2]
 3.Run train.py. to train the NLEDN model
+
 4.Run test.py. to test the trained model
