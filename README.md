@@ -9,3 +9,20 @@ Figure: The overall architecture of our proposed non-locally enhanced encoder-de
 
 ![image](https://user-images.githubusercontent.com/35444743/114492730-bc443900-9c4b-11eb-85a9-2594e3d6a864.png)
 Figure 3: The architecture of our proposed non-locally enhanced dense block (NEDB). Left part shows the multi-scale input via either adopting global-level non-local enhancement which feeds the entire feature map to NEDB or dividing the feature map into a grid of regions to realize region-level non-local enhancement. Here we show by a 2 × 2 grid for convenience.
+
+![image](https://user-images.githubusercontent.com/35444743/114492846-f7466c80-9c4b-11eb-9fb8-0063e555233a.png)
+![image](https://user-images.githubusercontent.com/35444743/114492851-fe6d7a80-9c4b-11eb-8110-40b6361891e5.png)
+![image](https://user-images.githubusercontent.com/35444743/114493194-ae42e800-9c4c-11eb-8a5a-5f9681cc87fd.png)
+
+# Dataset Dowload:
+link：https://pan.baidu.com/s/1vm5iqt-ONycAdh9qXLJg_A 
+code：uxq8 
+
+
+# Running Steps
+1.Download four testing sets (Rain100L, Rain100H, DDN, DID-MDN).
+2.Choose the type of dataset in Congig.config.py.
+  data_type_list = ['dataset1', 'dataset2', 'dataset3', 'dataset4']
+  data_type = data_type_list[2]
+3.Run train.py. to train the NLEDN model
+4.Run test.py. to test the trained model
